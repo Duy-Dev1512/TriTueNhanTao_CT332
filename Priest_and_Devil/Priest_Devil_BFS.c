@@ -124,7 +124,7 @@ void pop(Stack *S)
     if (!emptyStack(*S))
         S->Top_index += 1;
     else
-        printf("ERROR! Stack is empty");
+        printf("ERROR!Stack is empty");
 }
 
 int chuyen_1_TuSi(State current, State *result)
