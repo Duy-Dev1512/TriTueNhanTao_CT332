@@ -357,7 +357,7 @@ int inputs2[9][9] = {
 int main()
 {
     Sudoku sudoku;
-    initSodokuWithValues(&sudoku, inputs2);
+    initSodokuWithValues(&sudoku, inputs1);
     printSudoku(sudoku);
     Sudoku result = solveSudoku(sudoku);
     printSudoku(result);
