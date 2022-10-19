@@ -3,7 +3,7 @@
 (define (domain air-cargo)
 
     (:requirements :strips)
-\
+
     (:predicates
         (In ?obj ?place)
         (At ?obj ?place)
